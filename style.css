@@ -1,0 +1,75 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: Poppins;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 70px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.logo-img {
+  display: block;
+  margin: auto;
+  width: 180px;
+  height: 80px;
+}
+
+.logo-text {
+  font-size: 25px;
+  margin-block-start: 5px;
+  margin-block-end: 2px;
+  color: #00dd00;
+  text-align: center;
+}
+
+nav {
+  background-color: #00dd00;
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  margin-top: 20px;
+  color: white;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+section h3 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+section div {
+  font-size: 13px;
+  margin: 3px;
+}
+
+section div:last-child {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.batteria-1 {
+  background-color: #f5b453;
+  width: 275px;
+}
+
+.batteria-2 {
+  background-color: #1ec31e;
+  width: 500px;
+}
+
+.batteria-3 {
+  background-color: #be4141;
+  width: 150px;
+}
